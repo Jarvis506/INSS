@@ -1,0 +1,138 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+div.container{
+    width: 100vw;
+    height: 100vh;
+    background: #ece7e7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+div.top{
+    width: 100%;
+    height: 10%;
+    background:aliceblue;
+    color: blue;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+div.top .logo{
+    font-size: 48px;
+    margin-left: 3%;
+}div.top .logo::after{
+    content: "slogan";
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    color: blue;
+    font-size: 12px;
+
+}div.top > div {
+    position: relative;
+    width: 40%;
+    justify-self:flex-end;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}div.login{
+    display: flex;
+    left: 2%;
+    top: 0px;
+    position: absolute;
+    width: 95.0%;
+    height: 100%;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}div.login input{
+    width: 40%;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #ece7e7;
+    padding: 5px 3px;
+    background-color: white!important;
+}div.login input[type='button']{
+    width: 50px!important;
+    cursor: pointer;
+}
+div.top div > a{
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 8%;
+    color: blue;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    font-weight: 700;
+}
+
+div.corpo{
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: flex-start;
+    position: relative;
+}
+
+
+/*css do componets de info*/
+div.corpo div{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+div.inform{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column!important;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}div.inform img{
+    width: 50%;
+    border-radius: 3%;
+    padding: 12px;
+}
+
+div.form{
+    width: 50%;
+    height: 100%;
+}div.form form{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 6;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}div.form form input, select{
+    margin: 8px 3%;
+    width: 90%;
+    padding: 8px 8px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
